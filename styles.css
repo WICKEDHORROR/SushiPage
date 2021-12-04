@@ -3,5 +3,28 @@
 }
 
 #xroma2 {
-    background-color: #f1bb87;
+    background-color: #f1bb87 !important;
+}
+
+:root {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+#pano {
+    height: 100px;
+    padding: auto;
+    margin: auto;
+}
+
+.bg-image {
+    height: 100vh;
+    background-image: url('images/different-sushi-with-japanese-knife-black-stone-slate-background-sushi-table_8353-6051.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: middle;
+    padding-bottom: 755px;
+    margin-bottom: 550px;
+    /* Do not repeat the image */
 }
