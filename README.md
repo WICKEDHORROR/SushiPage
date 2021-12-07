@@ -1,6 +1,6 @@
 SushiPage
 
-Website Commision for DevRoom Team
+Website for a small Sushi shop [ Training_]
 
 Made with html,css,js
-Libraries used : Bootstrap,JQuery
+Libraries used : Bootstrap,JQuery more...
