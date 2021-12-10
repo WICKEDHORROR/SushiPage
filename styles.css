@@ -25,17 +25,6 @@
                                 margin: auto;
                             }
                             
-                            .bg-image {
-                                height: 100vh;
-                                background-image: url('images/different-sushi-with-japanese-knife-black-stone-slate-background-sushi-table_8353-6051.jpg');
-                                background-repeat: no-repeat;
-                                background-size: cover;
-                                background-position: middle;
-                                padding-bottom: 705px;
-                                margin-bottom: 10px;
-                                /* Do not repeat the image */
-                            }
-                            
                             #facilities {
                                 background-color: #8b8b8b;
                                 padding: 30px 0px;
@@ -77,27 +66,55 @@
                                 text-decoration: none;
                             }
                             
-                            @media only screen and (max-width: 990px) {
+                            #gap {
+                                padding: 5%;
+                            }
+                            
+                            @media only screen and (min-width: 260px) {
                                 .bg-image {
                                     width: 100%;
-                                    background-size: contain;
+                                    margin-bottom: -450px;
+                                }
+                            }
+                            
+                            @media only screen and (min-width: 310px) {
+                                .bg-image {
+                                    width: 100%;
+                                    margin-bottom: -500px;
+                                }
+                            }
+                            
+                            @media only screen and (min-width: 350px) {
+                                .bg-image {
+                                    width: 100%;
+                                    margin-bottom: -450px;
+                                }
+                            }
+                            
+                            @media only screen and (min-width: 375px) {
+                                .bg-image {
+                                    width: 100%;
+                                    margin-bottom: -500px;
+                                }
+                            }
+                            
+                            @media only screen and (min-width: 415px) {
+                                .bg-image {
+                                    width: 100%;
+                                    margin-bottom: -500px;
+                                }
+                            }
+                            
+                            @media only screen and (min-width: 520px) {
+                                .bg-image {
+                                    width: 100%;
                                     margin-bottom: -350px;
                                 }
                             }
                             
-                            @media only screen and (max-width: 1024px) {
-                                .bg-image {
-                                    height: fit-content;
-                                    width: 100%;
-                                    background-size: contain;
-                                    margin-bottom: -650px;
-                                }
-                            }
-                            
-                            @media only screen and (max-width: 375px) {
+                            @media only screen and (min-width: 1020px) {
                                 .bg-image {
                                     width: 100%;
-                                    background-size: contain;
-                                    margin-bottom: -550px;
+                                    margin-bottom: -20px;
                                 }
                             }
